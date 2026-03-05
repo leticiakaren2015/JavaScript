@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background-color: rgba(0, 255, 255, 0.396);
+            font: normal 15px Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando os estudos com DOM</h1>
+
+    <p>Primeiro</p>
+    <p>Segundo</p>
+
+    <div id="id1">A</div>
+    <div class="caixa">B</div>
+    <div class="caixa">C</div>
+
+    <input name="usuario1">
+    <input name="usuario">
+
+    <script>
+        document.getElementById('id1') // Único elemento
+        document.getElementsByTagName('p')[1] // segundo parágrafo
+        document.getElementsByClassName('caixa')[1] // primeira caixa
+        document.getElementsByName('usuario1')[0] // primeiro input
+
+    </script>
+</body>
+</html>
