@@ -26,27 +26,27 @@
     <div id="res">Resultado</div>
 
 <script>
-    // Function to sum two numbers / Função para somar dois números
+    // Function to sum two numbers 
     function somar() {
-        // Get the first input element by its ID / Pega o primeiro input pelo ID
+        // Get the first input element by its ID 
         var tn1 = document.getElementById('text1') 
 
-        // Get the second input element using querySelector / Pega o segundo input usando querySelector
+        // Get the second input element using querySelector 
         var tn2 = document.querySelector('input#text2')
 
-        // Get the div where we will display the result / Pega a div onde será exibido o resultado
+        // Get the div where we will display the result 
         var res = document.getElementById('res')
 
-        // Convert the first input value to a number / Converte o valor do primeiro input para número
+        // Convert the first input value to a number 
         var n1 = Number(tn1.value)
 
-        // Convert the second input value to a number / Converte o valor do segundo input para número
+        // Convert the second input value to a number 
         var n2 = Number(tn2.value)
 
-        // Calculate the sum of the two numbers / Calcula a soma dos dois números
+        // Calculate the sum of the two numbers 
         var soma = n1 + n2
 
-        // Display the result in the div / Mostra o resultado na div
+        // Display the result in the div 
         res.innerHTML = `A soma entre ${n1} e  ${n2} é igual a ${soma}`
     }
 </script>
