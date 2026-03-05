@@ -27,9 +27,13 @@
     <script>
         document.getElementById('id1') // Único elemento
         document.getElementsByTagName('p')[1] // segundo parágrafo
-        document.getElementsByClassName('caixa')[1] // primeira caixa
+        document.getElementsByClassName('caixa')[0] // primeira caixa
         document.getElementsByName('usuario1')[0] // primeiro input
 
+        // forma simple para todos elemento. (segunda caixa)
+        document.querySelectorAll('div#.caixa')[2]
+        // forma simple para um Único elemento
+        document.querySelector('div#id1')
     </script>
 </body>
 </html>
