@@ -7,6 +7,10 @@ header {
     color: white;
     text-align: center;
 }
+h1 {
+    display: inline-block;
+    text-shadow: 2px 2px 3px black;
+}
 
 section {
     background-color: white;
@@ -17,8 +21,18 @@ section {
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.342);
 }
 
+#foto {
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-top: 13px;
+}
+
 footer {
     color: white;
     text-align: center;
     font-style:italic ;
+    text-shadow: 2px 2px 3px black;
 }
