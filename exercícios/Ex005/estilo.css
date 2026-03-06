@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(0, 0, 255, 0.506);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    text-shadow: 2px 2px 3px black;
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+}
+
+div#foto img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50% 50%;
+}
+
+section {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.342);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style:italic;
+    text-shadow: 2px 2px 3px black;
+}
