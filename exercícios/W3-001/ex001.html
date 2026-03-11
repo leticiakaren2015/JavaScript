@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo JavaScript in body</title>
+</head>
+<body>
+    <h1>Meu paragrafo</h1>
+    <p id="conteudo">conteúdo antigo</p>
+    <button type="button" onclick="novoConteudo()">click aqui</button>
+    <script>
+        function novoConteudo() {
+            document.getElementById('conteudo').innerHTML = 'Meu novo conteúdo'
+        }
+    </script>
+</body>
+</html>
