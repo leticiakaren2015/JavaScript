@@ -6,16 +6,17 @@
     <title>JavaScript Loops</title>
 </head>
 <body>
-    <h2>The while loop </h2>
+    <h2>The do...while loop </h2>
     <p id="demo"></p>
     <script>
         let text = "";
-        let i = 0;
+        let i = 5;
 
-        while(i < 10) {
+        do {
             text += "The number is " + i + "<br>";
             i++
         }
+        while(i < 20);
 
         
         document.getElementById('demo').innerHTML = text;
